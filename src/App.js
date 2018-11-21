@@ -12,7 +12,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>React App</h2>
         </div>
-        <BrowserRouter>
+        <BrowserRouter basename='/gxinnovationlab'>
           <div>
             <Route path="/" exact component={Home} />
             <Route path="/about" exact component={About} />
